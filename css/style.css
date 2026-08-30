@@ -24,7 +24,7 @@ img {
   background-color:transparent;
   border:none;
   max-width:100%;
-  max-heightc:white:100%;
+  max-height:white:100%;
 
   text-align:center;
   font-size:30px;
@@ -46,9 +46,48 @@ img {
 
 .tier-sort {
   background-color:#191b15;
+  justify-content:left;
+  align-items:center;
+  padding:10px;
+  display:flex;
+}
+
+.tier-sort img{
+
+  height: 100%;
 }
 .tier-row {
   margin: 10px;
 }
+.list-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-content: flex-start;
+  border: 1px solid;
+  padding:10px;
+}
+.card {
+  min-width: 100px;
+  width:100px;
+  max-height: 100px;
+  min-height: 100px;
+  flex-shrink:0;
+  overflow:hidden;
+  flex:0 0 auto;
+  margin-right:5px;
+}
 
+.card img {
+  height:100%;
+  width:100%;
+  max-width:100%;
+  display:block;
+  object-fit:cover;
+  margin:10px;
+  margin-right:10px;
+}
+
+.list-row {
+  text-align:left;
+}
 
