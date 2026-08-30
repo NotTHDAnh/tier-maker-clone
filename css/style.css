@@ -1,0 +1,54 @@
+img {
+  max-width:30%;
+  height: auto;
+  fill:white;
+}
+.setting img{
+  max-width:80%;
+}
+.move button{
+  padding:0px;
+}
+.move img{ 
+  max-width:50%;
+}
+
+.label-holder{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:30px;
+}
+
+.label-holder input{
+  background-color:transparent;
+  border:none;
+  max-width:100%;
+  max-heightc:white:100%;
+
+  text-align:center;
+  font-size:30px;
+  font-weight:bold
+}
+.label-holder span{
+  justify-content: space-between;
+}
+
+.tier-setting {
+  background-color:#464858;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.tier-setting img {
+  background-color:transparent;
+}
+
+.tier-sort {
+  background-color:#191b15;
+}
+.tier-row {
+  margin: 10px;
+}
+
+
