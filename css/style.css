@@ -50,6 +50,8 @@ img {
   align-items:center;
   padding:10px;
   display:flex;
+  flex-wrap:wrap;
+  overflow-x:auto
 }
 
 .tier-sort img{
@@ -57,7 +59,7 @@ img {
   height: 100%;
 }
 .tier-row {
-  margin: 10px;
+    margin: 10px;
 }
 .list-container{
   display:flex;
