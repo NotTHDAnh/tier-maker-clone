@@ -167,6 +167,9 @@ function dropHandler(ev) {
   const data = ev.dataTransfer.getData("text");
   const draggedElement = document.getElementById(data);
   
+  const dropZone = (ev.target.closest(".tier-sort") || ev.target.closest(".list-container"));
+  console.log(dropZone);
+  if(!dropZone) return;
   if (ev.target.tagName === "IMG") {
     ev.target.parentNode.appendChild(draggedElement);
   } else {
